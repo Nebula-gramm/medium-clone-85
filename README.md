@@ -36,7 +36,7 @@ medium-clone-85/
    npm install
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-
+---
 ## 📦 Deployment
 -Push to GitHub.
 -Connect the repo on vercel.com.
