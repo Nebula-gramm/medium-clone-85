@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <title>Medium Clone with Tailwind Css</title>
+</head>
+<body class="bg-[#F7F4ED] flex flex-col h-screen">
+
+    <!-- This is Header Part -->
+    <header class="flex justify-between items-center px-6 md:px-40 py-4 border-b-1">
+        <div><h1 class="text-3xl font-bold cursor-pointer">Medium</h1></div>
+        <div class="flex gap-x-6 items-center">
+            <div class="hidden md:block">
+                <ul class="flex gap-x-8 cursor-pointer text-sm " >
+                    <li>Our story</li>
+                    <li>Membership</li>
+                    <li>Write</li>
+                    <li>Sign In</li>
+                </ul>
+            </div>
+            <div><button class="bg-black text-white cursor-pointer rounded-3xl px-4 py-2 text-[14px]">Get Started</button></div>
+        </div>
+    </header>
+
+    <!-- This is Hero or Main Part -->
+    <main class="flex-1 flex overflow-hidden" >
+        <div class="w-2/3 ml-4 mt-12 md:mt-32 md:ml-40">
+            <h1 class="text-8xl ">Human
+                <br>stories & ideas</h1>
+            <p class="pt-8 text-xl font-medium">A place to read, write, and deepen your understanding</p>
+            <button class="mt-8 py-3 px-10 rounded-3xl bg-[#156D12] md:bg-black text-white text-xl">Start Reading</button>
+        </div>
+        <div class="w-1/3 hidden md:block"><img src="https://miro.medium.com/v2/format:webp/4*SdjkdS98aKH76I8eD0_qjw.png" class="w-[400px] mt-2 h-[650px]"></div>
+    </main>
+
+
+    <!-- This is Footer Part -->
+    <footer class="border-t-1 bg-black md:bg-transparent">
+        <div class="hidden md:flex justify-center items-center py-6">
+            <ul class="flex gap-x-4 text-sm cursor-pointer opacity-70">
+                <li>Help</li>
+                <li>Status</li>
+                <li>about</li>
+                <li>Careers</li>
+                <li>Press</li>
+                <li>Blog</li>
+                <li>Privacy</li>
+                <li>Rules</li>
+                <li>Terms</li>
+                <li>Text to speech</li>
+            </ul>
+        </div>
+        <div class="md:hidden">
+            <ul class="flex text-white gap-x-4 text-sm py-7 pl-4 cursor-pointer">
+                <li>About</li>
+                <li>Help</li>
+                <li>Term</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
